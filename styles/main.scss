@@ -1,0 +1,14 @@
+@import "./vendor/normalize.scss";
+
+@media (min-width: 768px){}
+
+@media (min-width: 1024px){}
+
+@import 'partials/variables';
+h1 {
+    color: $primary_font_color;
+    }
+
+p {
+    color: $primary_font_color;
+    }
