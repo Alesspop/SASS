@@ -1,14 +1,50 @@
-@import "./vendor/normalize.scss";
+@import "vendor/normalize";
+@import 'partials/variables';
 
 @media (min-width: 768px){}
 
 @media (min-width: 1024px){}
 
-@import 'partials/variables';
 h1 {
     color: $primary_font_color;
+    font-family: $heading_primary_font;
     }
+
+h2 {
+    color: black;
+    font-family: $heading_secondary_font;
+
+}
 
 p {
     color: $primary_font_color;
     }
+
+footer {
+    color: $primary_font_color;
+}
+
+.main-hero {
+    min-height: 62vh;
+    background-image: url("../assets/images/pink donuts360px.png");
+}
+
+.main-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.header {
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    
+}
+
