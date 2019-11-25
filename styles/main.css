@@ -387,15 +387,22 @@ footer {
   text-align: center;
 }
 
-.nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.navigation {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 50% 50%;
+      grid-template-rows: 50% 50%;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+.navigation {
+  display: flex-inline;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+}
+
+.blueheader {
+  background-color: blue;
 }
 /*# sourceMappingURL=main.css.map */

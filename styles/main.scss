@@ -40,10 +40,17 @@ footer {
     text-align: center;
 }
 
-.nav {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    
+.navigation {
+    display:grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
+.navigation {
+    display: flex-inline;
+    justify-content: space-around;  
+}
+
+.blueheader {
+    background-color: blue;
+}
