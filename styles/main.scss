@@ -52,7 +52,19 @@ footer {
 }
 
 .blueheader {
+    display: flex;
+    height: 50px;
+    width: 50%;
     background-color: #97EBEB;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+    width: 100%;
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
 }
 
 .menu_images {
@@ -79,6 +91,11 @@ footer {
     border-radius: 50%;
     height: 125px;
     width: 125px;
+
+    &:hover {
+        transform: scale(2);
+        transition: transform 2s ease-in;
+    }
 }
 
 .circle-text{
@@ -87,4 +104,19 @@ footer {
     grid-column-end: 4;
 }
 
+.location {
+    display: flex;
+    margin-top: 15px;
+    height: 50px;
+    width: 50%;
+    background-color:#FFC2C7;
+    justify-content: center;
+    align-items: center;
 
+    &:hover {
+        width: 100%;
+        transition-property: width;
+        transition-duration: 1s;
+        transition-timing-function: ease-in;
+    }
+}
