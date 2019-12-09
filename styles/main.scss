@@ -5,6 +5,10 @@
 
 @media (min-width: 1024px){}
 
+body {
+    background-image: url("../assets/images/landscapewood1024.jpg");
+}
+
 h1 {
     color: $primary_font_color;
     font-family: $heading_primary_font;
@@ -40,22 +44,15 @@ footer {
     text-align: center;
 }
 
-.navigation {
-    display:grid;
-    grid-template-rows: 50% 50%;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
-}
-
-.navigation {
-    background-image: url("../assets/images/background300.jpg");
+.navbar-custom {
+    background-color: $primary_font_color;
 }
 
 .blueheader {
     display: flex;
     height: 50px;
     width: 50%;
-    background-color: #97EBEB;
+    background-color: $blue_color;
     justify-content: center;
     align-items: center;
 
@@ -81,13 +78,13 @@ footer {
 .circle-cell {
     grid-column: 3 / 5;
     text-align: center;
-    // justify-items: center;
+    //justify-items: center;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .circle-text {
-    background-color: #97EBEB;
+    background-color:$blue_color;
     border-radius: 50%;
     height: 125px;
     width: 125px;
@@ -109,7 +106,7 @@ footer {
     margin-top: 15px;
     height: 50px;
     width: 50%;
-    background-color:#FFC2C7;
+    background-color: $pink_color;
     justify-content: center;
     align-items: center;
 
@@ -119,4 +116,129 @@ footer {
         transition-duration: 1s;
         transition-timing-function: ease-in;
     }
+}
+.location-content {
+    display: grid;
+   // background-image: url("..assets/images/background300.jpg");
+    grid-template-rows: 400px;
+    grid-template-columns: repeat (2, 1fr);
+    grid-column-gap: 1px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.location-bg {
+    background-image: url("..assets/images/background300.jpg");
+}
+
+.square-text { 
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color:$blue_color;
+    height: 375px;
+    width: 300px;
+}
+
+.square-text {
+    display: grid;
+    grid-template-rows: auto;
+    padding: 50px; 
+}
+
+.square-cell {
+    display: flex;
+  
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.to-go {
+    display: flex;
+    height: 50px;
+    width: 50%;
+    background-color: $blue_color;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+    width: 100%;
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+}
+
+.to-go-content {
+    display: grid;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.to-go-text {
+    display: flex;    
+    color: white;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.to-go-cell {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.layout {
+    display: flex;
+    align-items: center;
+}
+
+.about-us {
+    display: flex;
+    margin-top: 15px;
+    height: 50px;
+    width: 50%;
+    background-color: $pink_color;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+        width: 100%;
+        transition-property: width;
+        transition-duration: 1s;
+        transition-timing-function: ease-in;
+    }
+}
+
+.about-us-content {
+    display: grid;
+    justify-content: center;
+    margin-top: 20px;
+    color: white;
+}
+
+.contact-us {
+    display: flex;
+    height: 50px;
+    width: 50%;
+    background-color: $blue_color;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+    width: 100%;
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    }
+}
+
+.btn {
+    background-color: $primary_font_color;
 }
