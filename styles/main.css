@@ -517,8 +517,12 @@ footer {
   margin-right: 20px;
 }
 
-.location-bg {
-  background-image: url("..assets/images/background300.jpg");
+.location-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .square-text {
@@ -534,7 +538,7 @@ footer {
           align-items: center;
   background-color: #97EBEB;
   height: 375px;
-  width: 300px;
+  width: 250px;
 }
 
 .square-text {
@@ -571,6 +575,7 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 20px;
 }
 
 .to-go:hover {
@@ -675,6 +680,7 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 20px;
 }
 
 .contact-us:hover {
@@ -689,5 +695,30 @@ footer {
 
 .btn {
   background-color: #94447C;
+}
+
+.red {
+  background-color: red;
+}
+
+.contact-us-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.remove {
+  background-color: red;
 }
 /*# sourceMappingURL=main.css.map */

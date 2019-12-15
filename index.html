@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mmmm Bakery</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    
+  
     <link rel="stylesheet" href="styles/main.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 </head>
@@ -49,9 +49,10 @@
           </nav>
 
   <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+<button type="button" class="btn btn-primary"  data-toggle="modal" data-target="#exampleModal">
   Coupon
 </button>
+
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -106,7 +107,7 @@
            <div  class="cupcakes"><img src="assets/images/cupcakes100.jpg"></div>
            <div class="circle-cell">
                <div class="circle-text">
-                   <p>text</p>
+                   <p class="text-size">Come and enjoy our fresh pastries baked everyday.</p>
                 </div>
            </div>
         </div>
@@ -120,7 +121,7 @@
     <section class="location-bg">
         <div class="location-content">
           <div class="row">
-            <div class="col col-sm-6"><img src="assets/images/Shop_window250.jpg"></div>
+            <div class="col col-sm-6 text-center"><img src="assets/images/Shop_window250.jpg"></div>
             <div class="col col-sm-6">
               <div class="square-cell">
                 <div class="square-text">
@@ -130,6 +131,7 @@
               </div>
             </div>
           </div>
+        </div>
     </section>
 
 <!-- To-Go Heading-->
@@ -141,8 +143,8 @@
           <div class="row">
             <div class="col layout">
               <div class="to-go-cell">
-              <div class="to-go-text">Call us for your place your order at (210)333-9999 or E-mail us</div>
-              <div><button type="button" class="btn btn-info">E-mail</button></div>
+              <div class="to-go-text">Call us to your place your order at (210)333-9999 or E-mail us</div>
+              <div><button type="button" class="btn btn-info" id="button" >E-mail</button></div>
               </div>
             </div>
             <div class="col"><img src="assets/images/delivery200.jpg"></div>
@@ -158,21 +160,34 @@
         <div class="row">
           <div class="col"><img src="assets/images/about_us300.jpg"></div>
           <div class="col layout">
-            <div class="about-us-cell"><div>
-            <div class="about-us-text">We are a family owned business that has been operating since 1997</div>
+            <div class="about-us-cell"></div>
+            <div class="about-us-text">We are a family owned business that has been operating since 1997.</div>
             </div>
-         </div>
+         
       </div>
+      </div>
+      
 
       <!-- Contact Us -->
 <section>
   <div id="contact-us" class="contact-us">Contact Us</div>
 </section>
+<section class="contact-us-content">
+  <div>Have a question?</div>
+  <div>Call our customer support number or E-mail our customer support.</div>
+  <div>(210) 567-4321</div>
+  <button> E-mail</button>
+</section>
 
 
-    <script src="js/main.js"></script>
+    
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script
+			  src="https://code.jquery.com/jquery-3.4.1.min.js"
+			  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+			  crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
+    <script src="js/main.js"></script>
+  </body>
 </html>
